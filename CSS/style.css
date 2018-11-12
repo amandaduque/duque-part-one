@@ -1,0 +1,141 @@
+
+html {
+    background: url("bulldog.jpg") no-repeat center fixed;
+    background-size: 80%;
+    background-color: #f0ecee;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    grid-template-areas:
+    "logo nav nav button"
+    "left-1 right-1 right-1 right-1"
+    "left-2 right-2 right-2 right-2"
+    "left-3 right-3 right-3 right-3";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+/* Navigation Styling */
+
+.logo {
+    grid-area: logo;
+    padding: 0% 0% 0% 5%;
+    font-weight: 300;
+    font-family: fira sans;
+    font-size: 1.5em;
+}
+
+.item-1 {
+grid-area: nav;
+/* border: 1px solid black; */
+
+
+}
+.item-1 ul {
+  padding: 4% 7% 7% 7%;
+  margin: 0;
+  text-align: right;
+  
+}
+
+.item-1 ul li {
+    display: inline-block;
+    width: 24%;
+    font-size: .9em;
+    letter-spacing: .1em;
+    font-family: fira sans;
+    color: #88898B;
+    font-weight: 300;
+}
+
+
+/*Button Styling*/
+
+.buttonClass {
+    grid-area: button;
+    width: 60%;
+    height: 50%;
+    background-color:#FF4850;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+button {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    font-size: 1em;
+
+}
+
+/* Section 1 Styling */
+
+.item-2 {
+grid-area: left-1;
+padding: 10% 0% 0% 5%;
+height: 3em;
+width: 15em;
+font-family: fira sans;
+font-weight: 600;
+font-size: 2em;
+/* border: 1px solid black; */
+}
+
+.red {
+color: #FF4850;
+background: none;
+}
+
+
+/* Section 2 Styling */
+
+.item-3 {
+grid-area: left-2;
+height: 3em;
+width: 25em;
+font-family: fira sans;
+font-weight: 400;
+font-size: 19px;
+padding: 0% 0% 0% 5%; 
+/* border: 1px solid black; */
+}
+
+/* Section 3 Styling */
+
+.item-4 {
+grid-area: left-3;
+height: 5em;
+padding: 0% 0% 0% 5%;
+/* border: 1px solid black; */
+}
+
+.buttonClass2 {
+    grid-area: button;
+    width: 35%;
+    height: 50%;
+    color: white;
+    background-color: #FF4850;
+    border-radius: 15px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+@media (min-width: 320px) {
+    .container{
+        width:auto;
+    }
+    .item-1{
+        float: left;
+        width: auto;
+    }button{
+       float: left;
+       width: auto; 
+    }
+}

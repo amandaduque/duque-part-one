@@ -1,0 +1,481 @@
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title></title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="http://i.e.crainalerts.com/wpm/868/css/fuelux.css" rel="stylesheet" />
+<link href="http://i.e.crainalerts.com/wpm/868/css/f.css" rel="stylesheet" /><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.22/jquery-ui.min.js"></script><script type="text/javascript" src="//www.fuelcdn.com/fuelux/2.3/loader.min.js"></script><script type="text/javascript" src="http://i.e.crainalerts.com/wpm/868/js/jquery.validator.js" ></script><script type="text/javascript" src="http://i.e.crainalerts.com/wpm/868/js/t.js"></script><script type="text/javascript" src="http://i.e.crainalerts.com/wpm/868/js/bootstrap-datepicker.js"></script><script type="text/javascript" src="http://i.email.craincontentstudio.com/wpm/868/js/CountryState.js"></script><script type="text/javascript">var ctx=new Fuel.TrackingContext(6330827,6271122);var t=new Fuel.Tracking(ctx,{ 'siteid': '600413', 'pageid' : '125', 'isMobile' : 'false' }); t.wrapLinks(null, 'CLOUDPAGESCLICK'); t.addRawEvent('CLOUDPAGESVISIT', { 'pageid' : '125'}); t.send(); </script><script type="text/javascript">window.contentDetail = {"isSite":true,"mid":6330827,"eid":6271122,"pageID":125,"siteID":600413,"isMobile":false} </script>
+<style type="text/css">.header {
+			background: #424b55;
+			overflow: hidden;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.35);
+			box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.35);
+			padding: 1em 2em;
+			}
+.tagline {
+			
+			clear: both;
+			color: #ffffff;
+			font-family: Cambria, &#39;Hoefler Text&#39;, Utopia, &#39;Liberation Serif&#39;, &#39;Nimbus Roman No9 L Regular&#39;, Times, &#39;Times New Roman&#39;, serif;
+			font-size: 1em;
+			font-weight: normal;
+			font-style: italic;
+			text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.35);
+			padding: .5em 0 1em;
+			margin: 0;
+			}
+.container{
+width:1200px !important;
+margin:0 auto !important;
+}	
+
+input,select { 
+width:360px !important;
+}
+.row{
+margin-left:0px !important;
+margin-right:0px !important;
+}
+
+.submitbutton{
+width:150px !important;
+}
+
+@media only screen and (max-width: 787px){
+
+.margin70{
+margin-left:70px !important;
+}
+.container{ width:100% !important;
+height:auto !important;}
+.wd100{
+	width:100% !important;
+}
+input,select { 
+width:100% !important;
+}
+.heightauto{
+height:auto !important;
+}
+
+.padtop10{
+padding-top:30px !important;
+}
+
+.margin0{
+margin:0px !important;
+}
+
+li{
+list-style-type:none !important;
+}
+
+ul{
+margin:10px !important;
+}
+}
+</style>
+<script type="text/javascript">
+window.onload = function() {
+				   
+                   
+				   var cdate = new Date();
+                   var yr=cdate.getFullYear();                  
+                    document.getElementById("yearDate").innerHTML = yr;
+                   
+               }
+					var s_account = "crainmodernhealth";
+					var s_loggedInCookie = "CSDemos";
+					var s_firstPartyTracking = false;
+				</script><script language="JavaScript" type="text/javascript" src="https://crain-global.s3.amazonaws.com/s_crainsc.js"></script><script language="JavaScript" type="text/javascript">
+					/* You may give each page an identifying name, server, and channel on
+					the next lines. */
+					s_crainsc.pageName = "cheetahdigital:" + s_crainsc.getPageName() + "?" + crain_url.substring((crain_url.indexOf("?")+1));
+					s_crainsc.channel = "cheetahdigital";
+					s_crainsc.prop1 = s_crainsc.eVar1 = "cheetahdigital"; // site section level 1
+					s_crainsc.prop29 = s_crainsc.eVar31 = "external"; // content type
+					/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+					var s_code=s_crainsc.t();if(s_code)document.write(s_code);
+				</script><noscript><img src="//crain.d1.sc.omtrdc.net/b/ss/crainmodernhealth/1/H.25.4--NS/0" height="1" width="1" border="0" alt="" /></noscript><script type="text/javascript">
+					$(document).ready(function() {
+				        $('#exit').click(function() {
+				            $("#dialog").hide()
+				        })
+				        $('#pdf').click(function() {
+				            //window.location.assign("http://pages.modernhealthcare.com/mediakitclassified")
+				            $("#myForm").submit();
+				        })
+				    });
+					  	function phonevalidate() {
+			var phonere = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+			var phoneNumber = document.getElementById("s_phone");
+
+			if (phonere.test(phoneNumber.value) && phoneNumber.value) { //alert("Hi");
+				document.getElementById("Phone1").style.display = 'none';
+				return true;
+			} else {
+				document.getElementById("Phone1").style.display = 'block';
+				return false;
+				//alert("bye");
+			}
+			
+		}
+                    
+                    function createGuid()  
+{  
+   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {  
+      var r = Math.random()*16|0, v = c === 'x' ? r : (r&0x3|0x8);  
+      return v.toString(16);  
+   });  
+}  
+ 
+
+					function validate() {
+						var BusinessUnit = "modernhealthcare"; /* options: modernhealthcare, pionline, businessinsurance */
+					    var fname = document.getElementById('s_first_name').value;
+					    var lname = document.getElementById('s_last_name').value;
+					    var Email = document.getElementById('s_email').value;
+					    var Phone = document.getElementById('s_phone').value;
+					    var Title = document.getElementById('s_title').value;
+					    var Country = document.getElementById('Country').value;
+					    var Organization_Name = document.getElementById('s_organization_name').value;
+					    var State = document.getElementById('State').value;
+					    var CategoryCode = document.getElementById('s_industry_type').value;
+
+					    document.getElementById('s_state').value = State;
+                        document.getElementById('s_country').value = Country;
+                        $("#s_industry_type_text").val($("#s_industry_type option:selected").text());
+
+					    var HearAboutUs = document.getElementById('s_hearaboutus_options').value;
+						var selO = document.getElementsByName('s_hearaboutus_options')[0];
+						var selValues = [];
+						for(i=0; i < selO.length; i++)
+						{
+							if(selO.options[i].selected){
+								selValues.push(selO.options[i].value);
+							}
+						}
+						console.log(selValues);
+						if(selValues.length<=1)
+						{
+							console.log(selValues[0]);
+						}
+						else
+						{
+							var mystring="";
+							for(var j=0;j<selValues.length;j++)
+							{
+								if(mystring=="")
+								{
+									mystring=selValues[j];
+								}
+								else
+								{
+									mystring=mystring+"|"+selValues[j];
+								}
+							}
+						console.log(mystring);
+						document.getElementById('s_hearaboutus').value=mystring;
+						}
+	
+						console.log(HearAboutUs);
+					    	    var Products = document.getElementById('s_products_options').value;
+
+						var PrdO = document.getElementsByName('s_products_options')[0];
+						var PrdValues = [];
+						for(var i=0; i < PrdO.length; i++)
+						{
+							if(PrdO.options[i].selected){
+								PrdValues.push(PrdO.options[i].value);
+							}
+						}
+						console.log(PrdValues);
+						if(PrdValues.length<=1)
+						{
+							console.log(PrdValues[0]);
+						}
+						else
+						{
+							var mystringp="";
+							for(var j=0;j<PrdValues.length;j++)
+							{
+								if(mystringp=="")
+								{
+									mystringp=PrdValues[j];
+								}
+								else
+								{
+									mystringp=mystringp+"|"+PrdValues[j];
+								}
+							}
+						console.log(mystringp);
+						document.getElementById('s_products').value=mystringp;
+						}
+
+					    	    var TopicsInterestedIn = document.getElementById('s_topicsinterestedin_options').value;
+						
+						var TIO = document.getElementsByName('s_topicsinterestedin_options')[0];
+						var TIValues = [];
+						for(var i=0; i < TIO.length; i++)
+						{
+							if(TIO.options[i].selected){
+								TIValues.push(TIO.options[i].value);
+							}
+						}
+						console.log(TIValues);
+						if(TIValues.length<=1)
+						{
+							console.log(TIValues[0]);
+						}
+						else
+						{
+							var mystringt="";
+							for(var j=0;j<TIValues.length;j++)
+							{
+								if(mystringt=="")
+								{
+									mystringt=TIValues[j];
+								}
+								else
+								{
+									mystringt=mystringt+"|"+TIValues[j];
+								}
+							}
+						console.log(mystringt);
+						document.getElementById('s_topicsinterestedin').value=mystringt;
+						}
+						
+					    	    var GoalsObjectives = document.getElementById('s_goalsobjectives_options').value;
+						
+						
+						var goalObj = document.getElementsByName('s_goalsobjectives_options')[0];
+						var goalObjValues = [];
+						for(var i=0; i < goalObj.length; i++)
+						{
+							if(goalObj.options[i].selected){
+								goalObjValues.push(goalObj.options[i].value);
+							}
+						}
+						console.log(goalObjValues);
+						if(goalObjValues.length<=1)
+						{
+							console.log(goalObjValues[0]);
+						}
+						else
+						{
+							var mystring_go="";
+							for(var j=0;j<goalObjValues.length;j++)
+							{
+								if(mystring_go=="")
+								{
+									mystring_go=goalObjValues[j];
+								}
+								else
+								{
+									mystring_go=mystring_go+"|"+goalObjValues[j];
+								}
+							}
+						console.log(mystring_go);
+						document.getElementById('s_goalsobjectives').value=mystring_go;
+						}
+					    var Budget = document.getElementById('s_budget').value;
+
+					    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+					    var status = true;
+					    if (fname == "") {
+					        document.getElementById("FName1").style.display = "block";
+					        status = false;
+					    } else {
+					        document.getElementById("FName1").style.display = "none";
+					        status;
+					    }
+
+					    if (lname == '') {
+					        document.getElementById('Lname').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById('Lname').style.display = 'none';
+					        status;
+					    }
+
+					    if (Email.length < 1) {
+					        document.getElementById('Email1').style.display = 'block';
+					        status = false;
+					    } else if (!filter.test(Email)) {
+					        document.getElementById("Email1").innerHTML = "Please enter valid emailaddress";
+					        status = false;
+					    } else {
+					        document.getElementById('Email1').style.display = 'none';
+					        status;
+					    }
+
+					    if (Phone == '') {
+					        document.getElementById('Phone1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById('Phone1').style.display = 'none';
+					        status;
+					    }
+
+					    if (Title == '') {
+					        document.getElementById('Title1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById('Title1').style.display = "none";
+					        status;
+					    }
+
+					    if (Organization_Name == '') {
+					        document.getElementById('Company1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById('Company1').style.display = 'none';
+					        status;
+					    }
+
+
+					    if (CategoryCode == '') {
+					        document.getElementById('CategoryCode1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("CategoryCode1").style.display = 'none';
+					        status;
+					    }
+
+					    if (HearAboutUs == '') {
+					        document.getElementById('HearAboutUs1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("HearAboutUs1").style.display = 'none';
+					        status;
+					    }
+
+					    if (Products == '') {
+					        document.getElementById('Products1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("Products1").style.display = 'none';
+					        status;
+					    }
+
+					    if (TopicsInterestedIn == '') {
+					        document.getElementById('TopicsInterestedIn1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("TopicsInterestedIn1").style.display = 'none';
+					        status;
+					    }
+
+					    if (GoalsObjectives == '') {
+					        document.getElementById('GoalsObjectives1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("GoalsObjectives1").style.display = 'none';
+					        status;
+					    }
+
+					    if (Budget == '') {
+					        document.getElementById('Budget1').style.display = 'block';
+					        status = false;
+					    } else {
+					        document.getElementById("Budget1").style.display = 'none';
+					        status;
+					    }
+
+					    var currentdate = new Date(); 
+                        document.getElementById('s_formdate').value = (currentdate.getMonth()+1) +"/"+ currentdate.getDate() +"/"+ currentdate.getFullYear() +" "+ currentdate.getHours() +":"+ currentdate.getMinutes() +":"+ currentdate.getSeconds();
+
+					    if (status == true){
+                            $.ajax({
+                                async: false,
+                                dataType: "json",
+                                url: "http://cors-anywhere.herokuapp.com/https://home." + BusinessUnit + ".com/clickshare/extAPI1.do",
+                                data: "CSAuthID=mh_SFMC&CSAuthKey=m0D3rnH34lth&CSOp=createOrUpdateAccount&CSUsername=" + Email + "&CSNameFirst=" + fname + "&CSNameLast=" + lname + "&CSOrganization=" + Organization_Name + "&CSPhone=" + Phone + "&CSState=" + State + "&CSCountry=" + Country + "&CSHistory=extAPI1&selection.jobFunction=" + Title,
+                                success: function( data ) {
+                                    $.each(data, function (){
+                                        console.log(this);
+                                    });
+                                }
+                            });
+                        }
+
+					    if (status == true && $("#dialog").is(":hidden") == true) {
+					        $("#dialog").show();
+					        status = false;
+					    }
+					    else if (status == true && $("#dialog").is(":hidden") == false){
+					    	status = true;
+					    }
+/*
+					    var guid = ([1e7]+-1e3+-4e3+-8e3+-1e11).replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));*/
+                        
+                        var guid = createGuid();
+						
+					    /*$("#cp").val('http://x.e.crainsubscription.com/ats/show.aspx?cr=868&fm=89&email='+Email+'&guid='+guid);*/
+
+					    return status;
+						
+					}
+				</script>
+<div class="container">
+<div class="row">
+<div id="HeaderImage">
+<div class="header">
+<h1 class="logo"><a href="http://www.modernhealthcare.com" title="Modern Healthcare Home Page"><img alt="Modern Healthcare" src="http://i.e.crainalerts.com/wpm/868/Medline1/mh-logo-dropshadow.png" width="250" /></a></h1>
+
+<h2 class="tagline" style="color:#fff;">The leader in healthcare business news, research &amp; data</h2>
+</div>
+</div>
+</div>
+
+<div class="row heightauto" style="background-color:#808080;height:1700px;">
+<div class="row" style="padding-top:10px;">
+<div class="col-md-1"></div>
+
+<div class="col-md-10" style="">
+<p style="text-align: center;"><span style="color:#FFFFFF;font-weight:normal;"><span style="font-family:arial,helvetica,sans-serif;"><span style="font-size:15px;"><span class="lpContentsItem richTextSpan"><span _mce_style="font-size: 18px; color: #000000; text-align: left; font-weight: normal; line-height: 18px; margin-left: 20px; margin-right: 20px; font-family: Arial, Helvetica, sans-serif;" style="line-height: 18px; margin-left: 20px; margin-right: 20px;">Thank you for your interest in Modern Healthcare&#39;s 2019 Media Kit. <b>This information is not yet available</b> but we would love the opportunity to notify you when it is! By completing the following information, you will receive an email with links to the information that you are requesting once it is available. </span></span></span></span></span></p>
+</div>
+
+<div class="col-md-1"></div>
+</div>
+
+<div class="row wd100" style="background-color:#ffffff;width:950px;height:1500px;margin:0px auto !important;">
+<div class="margin0" id="form" style="margin-left:260px;margin-top:75px;">
+<form action="go.aspx" id="myForm" method="post" onsubmit="return validate();"><input name="cr" type="hidden" value="{(CustomerID)}" /> <input name="fm" type="hidden" value="{(FormID)}" /> <input name="sb" type="hidden" value="{(SubmissionID)}" /> <input name="ri" type="hidden" value="{(PkID)}" /> <input name="mg" type="hidden" value="{(MessageID)}" /> <input name="cn" type="hidden" value="{(CampaignID)}" /> <input id="cp" name="cp" type="hidden" /> <input id="s_formsource" name="s_formsource" type="hidden" value="Media Kit 2019" /> <input id="s_formdate" name="s_formdate" type="hidden" value="" /> <input id="s_industry_type_text" name="s_industry_type_text" type="hidden" value="" /> <input id="s_state" name="s_state" type="hidden" value="" /> <input id="s_country" name="s_country" type="hidden" value="" /> <input id="s_hearaboutus" name="s_hearaboutus" type="hidden" value="" /> <input id="s_products" name="s_products" type="hidden" value="" /> <input id="s_goalsobjectives" name="s_goalsobjectives" type="hidden" value="" /> <input id="s_topicsinterestedin" name="s_topicsinterestedin" type="hidden" value="" /> <input name="submitted" type="hidden" value="true" />
+<ul class="mktLblLeft">
+	<li class="mktFormReq mktField"><label>First Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" id="s_first_name" maxlength="255" name="s_first_name" tabindex="1" type="text" value="" /></span> <span id="FName1" name="FName1" style="display:none; color:#ff0000;">Please fill out the First Name</span></li>
+	<li class="mktFormReq mktField"><label>Last Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" id="s_last_name" maxlength="255" name="s_last_name" tabindex="2" type="text" value="" /></span> <span id="Lname" name="Lname" style="display:none; color:#ff0000;">Please fill out the Last Name</span></li>
+	<li class="mktFormReq mktField"><label>Email Address:</label><span class="mktInput"><input class="mktFormText mktFormEmail mktFReq" id="s_email" maxlength="255" name="s_email" tabindex="3" type="text" value="" /></span> <span id="Email1" name="Email1" style="display:none; color:#ff0000;">Please fill out the Email Address</span></li>
+	<li class="mktFormReq mktField"><label>Organization Name:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" id="s_organization_name" maxlength="255" name="s_organization_name" tabindex="4" type="text" value="" /></span> <span id="Company1" name="Company1" style="display:none; color:#ff0000;">Please fill out the Organization Name</span></li>
+	<li class="mktFormReq mktField"><label>Company Category</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_industry_type" name="s_industry_type" size="1" tabindex="5"><option value=""></option><option value="Agency-Full Service">Agency-Full Service</option><option value="Agency-PR">Agency-PR</option><option value="Biotechnology">Biotechnology</option><option value="Books and Educational">Books and Educational</option><option value="Business Equipment and Supplies">Business Equipment and Supplies</option><option value="Building Products">Building Products</option><option value="Clinical Management Service">Clinical Management Service</option><option value="Computer Software/Hardware">Computer Software/Hardware</option><option value="Consulting">Consulting</option><option value="Corporate">Corporate</option><option value="Design and Construction">Design and Construction</option><option value="Financial and Banking">Financial and Banking</option><option value="For Profit Hospitals">For Profit Hospitals</option><option value="Furniture and Fixtures">Furniture and Fixtures</option><option value="Group Purchasing Organization">Group Purchasing Organization</option><option value="Housekeeping and Maintenance">Housekeeping and Maintenance</option><option value="Imaging/Radiology">Imaging/Radiology</option><option value="Industry Association">Industry Association</option><option value="Information Systems and Services">Information Systems and Services</option><option value="Insurance/Risk Management">Insurance/Risk Management</option><option value="Internet B2B Products and Services">Internet B2B Products and Services</option><option value="Internet Services">Internet Services</option><option value="Internet Service Provider">Internet Service Provider</option><option value="Legal">Legal</option><option value="Marketing Services">Marketing Services</option><option value="Miscellaneous">Miscellaneous</option><option value="Non-Profit Hospital">Non-Profit Hospital</option><option value="Operations Management Services">Operations Management Services</option><option value="Patient Care Equipment">Patient Care Equipment</option><option value="Patient Care Services">Patient Care Services</option><option value="Patient Care Supplies">Patient Care Supplies</option><option value="Personnel Services">Personnel Services</option><option value="Pharmaceutical">Pharmaceutical</option><option value="Real Estate Development">Real Estate Development</option><option value="Retail">Retail</option><option value="Security Systems and Services">Security Systems and Services</option><option value="Telecommunications">Telecommunications</option><option value="Transcription">Transcription</option> </select> </span> <span id="CategoryCode1" name="CategoryCode1" style="display:none; color:#ff0000;">Please select the Organization Name</span></li>
+	<li class="mktFormReq mktField"><label>Job Title:</label><span class="mktInput"><input class="mktFormText mktFormString mktFReq" id="s_title" maxlength="255" name="s_title" tabindex="6" type="text" value="" /></span> <span id="Title1" name="Title1" style="display:none; color:#ff0000;">Please fill out the Job Title</span></li>
+	<li class="mktFormReq mktField"><label>Country:</label><span class="mktInput"> <select class="mktFormSelect mktFReq" id="Country" name="Country" size="1" tabindex="7"></select> <!-- <span name="Country1" id="Country1" style="display:none; color:#ff0000;">Please select the country</span> --> </span></li>
+	<li class="mktFormReq mktField"><label>State:</label><span class="mktInput"> <select class="mktFormSelect mktFReq" id="State" name="State" size="1" tabindex="7"></select> </span> <!--<span name="State1" id="State1" style="display:none; color:#ff0000;">Please select the state</span>--></li>
+	<li class="mktFormReq mktField"><label>Phone:</label><span class="mktInput"><input class="mktFormText mktFormPhone mktFReq" id="s_phone" maxlength="255" name="s_phone" onchange="return phonevalidate();" tabindex="9" type="text" value="" /></span> <span id="Phone1" name="Phone1" style="display:none; color:#ff0000;">Please enter a valid Phone number</span></li>
+	<li class="mktFormReq mktField"><label>How did you hear about us? (select multiple by holding down the CTRL button)</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_hearaboutus_options" multiple="multiple" name="s_hearaboutus_options" size="7" tabindex="10"><option value="Modern Healthcare Promotion">Modern Healthcare Promotion&nbsp;</option><option value="ModernHealthcare.com">ModernHealthcare.com&nbsp;</option><option value="Search Engine">Search Engine&nbsp;</option><option value="Bacon's or SRDS">Bacon&#39;s or SRDS&nbsp;</option><option value="Colleague referral">Colleague referral&nbsp;</option><option value="Modern Healthcare reader">Modern Healthcare reader&nbsp;</option><option value="Current Advertiser">Current Advertiser</option> </select> </span> <span id="HearAboutUs1" name="HearAboutUs1" style="display:none; color:#ff0000;">Please select how did you hear about us</span></li>
+	<li class="mktFormReq mktField"><label>What products are you interested in? (select multiple by holding down the CTRL button)</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_products_options" multiple="multiple" name="s_products_options" size="7" tabindex="11"><option value="Modern Healthcare Magazine">Modern Healthcare Magazine</option><option value="ModernHealthcare.com">ModernHealthcare.com</option><option value="Classified Advertising">Classified Advertising</option><option value="Custom opportunities">Custom opportunities</option><option value="Lead generation">Lead generation</option><option value="Face-to-face event sponsorships">Face-to-face event sponsorships</option><option value="Virtual conferences">Virtual conferences</option><option value="Webinars/webcasts">Webinars/webcasts</option><option value="Enewsletters">Enewsletters</option><option value="Inserts">Inserts</option><option value="Postal/email list rental">Postal/email list rental</option><option value="Research">Research</option><option value="Reprints/E-prints">Reprints/E-prints</option> </select> </span> <span id="Products1" name="Products1" style="display:none; color:#ff0000;">Please select What products are you interested in</span></li>
+	<li class="mktFormReq mktField"><label>What topics would you be interested in aligning your brand/organization with in 2019?<br />
+	(select multiple by holding down the CTRL button)</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_topicsinterestedin_options" multiple="multiple" name="s_topicsinterestedin_options" size="15" tabindex="30"><option value="Accountable Care Organizations/ACOs">Accountable Care Organizations/ACOs</option><option value="American Recovery and Reinvestment Act (ARRA)">American Recovery and Reinvestment Act (ARRA)</option><option value="Behavioral Health">Behavioral Health</option><option value="Best Practices">Best Practices</option><option value="Billing and Collection">Billing and Collection</option><option value="Bundled Payments">Bundled Payments</option><option value="Community Health">Community Health</option><option value="Construction and Design">Construction and Design</option><option value="Consumer-Driven Care">Consumer-Driven Care</option><option value="Disease Management">Disease Management</option><option value="Education">Education</option><option value="Electronic Health Records (EHRs)">Electronic Health Records (EHRs)</option><option value="Disaster/Emergency Preparedness">Disaster/Emergency Preparedness</option><option value="Governance">Governance</option><option value="Health Information Exchanges">Health Information Exchanges</option><option value="Healthcare Reform">Healthcare Reform</option><option value="Home Health">Home Health</option><option value="Hospital Physician Relations">Hospital Physician Relations</option><option value="ICD-10">ICD-10</option><option value="Information Technology">Information Technology</option><option value="Health Plans/Insurers">Health Plans/Insurers</option><option value="Infection Control">Infection Control</option><option value="Lean Management">Lean Management</option><option value="Legal">Legal</option><option value="Long Term Care">Long Term Care</option><option value="Management">Management</option><option value="Materials Management">Materials Management</option><option value="Meaningful Use">Meaningful Use</option><option value="Medical Homes">Medical Homes</option><option value="Medical Tourism/Travel">Medical Tourism/Travel</option><option value="Mergers and Acquisitions">Mergers and Acquisitions</option><option value="Mobile Health">Mobile Health</option><option value="Never Events">Never Events</option><option value="Nursing">Nursing</option><option value="Outsourcing">Outsourcing</option><option value="Palliative Care">Palliative Care</option><option value="Patient Safety/Satisfaction/Measurement">Patient Safety/Satisfaction/Measurement</option><option value="Performance Improvement">Performance Improvement</option><option value="Physicians">Physicians</option><option value="Population Health Management">Population Health Management</option><option value="Practice Management">Practice Management</option><option value="Prevention and Wellness">Prevention and Wellness</option><option value="Quality">Quality</option><option value="Process Improvement Management">Process Improvement Management</option><option value="Radiology and Imaging">Radiology and Imaging</option><option value="Real Estate">Real Estate</option><option value="Reimbursement">Reimbursement</option><option value="Retail Health">Retail Health</option><option value="Revenue Cycle">Revenue Cycle</option><option value="Rural Health">Rural Health</option><option value="Service Line Strategies">Service Line Strategies</option><option value="Security">Security</option><option value="Staffing and Labor">Staffing and Labor</option><option value="Social Media in Healthcare">Social Media in Healthcare</option><option value="Supply Chain Management">Supply Chain Management</option><option value="None of the above topics">None of the above topics</option> </select> </span> <span id="TopicsInterestedIn1" name="TopicsInterestedIn1" style="display:none; color:#ff0000;">Please select What topics would you be interested in aligning your brand/organization with in 2019</span></li>
+	<li class="mktFormReq mktField"><label>What are your 2019 goals and objectives? (select multiple by holding down the CTRL button)</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_goalsobjectives_options" multiple="multiple" name="s_goalsobjectives_options" size="7" tabindex="13"><option value="Public Relations">Public Relations</option><option value="Increase brand awareness among decision-makers/buyers">Increase brand awareness among decision-makers/buyers</option><option value="Soften the market for my sales team">Soften the market for my sales team</option><option value="Generate more leads">Generate more leads</option><option value="Need leads to be more qualified/ready-to-buy">Need leads to be more qualified/ready-to-buy</option><option value="Prove ROI for marketing initiatives">Prove ROI for marketing initiatives</option><option value="Thought-leadership">Thought-leadership</option><option value="New program launch">New program launch</option> </select> </span> <span id="GoalsObjectives1" name="GoalsObjectives1" style="display:none; color:#ff0000;">Please select What are your 2019 goals and objectives</span></li>
+	<li class="mktFormReq mktField"><label>What is your 2019 marketing budget?</label> <span class="mktInput"> <select class="mktFormSelect mktFReq" id="s_budget" name="s_budget" size="1" tabindex="14"><option value=""></option><option value="Less than $50,000">Less than $50,000</option><option value="$50,001 to $150,000">$50,001 to $150,000</option><option value="$150,001 to $500,000">$150,001 to $500,000</option><option value="$500,001+">$500,001+</option><option value="Don’t Know">Don&rsquo;t Know</option> </select> </span> <span id="Budget1" name="Budget1" style="display:none; color:#ff0000;">Please select What is your 2019 marketing budget</span></li>
+</ul>
+<input class="submitbutton margin70" id="Submit" name="Submit" style="margin-left:120px;" type="submit" value="Submit" /><br />
+&nbsp;
+<p style="margin:10px;"><span style="font-family:arial,helvetica,sans-serif;"><b><span style="font-size:14px;"><span class="lpContentsItem richTextSpan"><span style="line-height: 18px;"><span style="color:#00000;">If you have any questions whatsoever, please contact<br />
+Ilana Klein at 312-649-5311 or at </span><a alias="" conversion="false" href="mailto:iklein@modernhealthcare.com?subject=2016 Media Kit Inquiry" title=""><span style="color:#000000;">iklein@modernhealthcare.com</span></a></span></span></span></b></span></p>
+</form>
+</div>
+</div>
+
+<div class="row" style="padding-top:25px;">
+<div id="Footer">
+<div style="text-align: center;"><span style="color:#FFFFFF;"><span style="line-height: normal; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12px;">Copyright 1996-</span></span>
+
+<p id="yearDate" name="yearDate" style="display: table-cell;"></p>
+<br style="color: rgb(0, 0, 0); font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" />
+<br style="color: rgb(0, 0, 0); font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" />
+<a alias="CrainHome" conversion="false" href="http://www.crain.com/" style="color: rgb(33, 104, 167); text-decoration: none; font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" title="Crain Home Page"><span style="color:#FFFFFF;">Crain Communications, Inc</span></a><br style="color: rgb(0, 0, 0); font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" />
+<a alias="Privacy" conversion="false" href="http://www.modernhealthcare.com/article/20100101/INFO/100209995" style="color: rgb(33, 104, 167); text-decoration: none; font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" title="Privacy Statement"><span style="color:#FFFFFF;">Privacy Statement</span></a><span style="color:#FFFFFF;"><span style="font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;">&nbsp;|&nbsp;</span></span><a alias="Terms" conversion="false" href="http://www.modernhealthcare.com/article/20100101/INFO/100209994" style="color: rgb(33, 104, 167); text-decoration: none; font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" title="Terms of Use"><span style="color:#FFFFFF;">Terms of Use</span></a><span style="color:#FFFFFF;"><span style="font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 20.7999992370605px;">&nbsp;|</span><span style="font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;">&nbsp;</span></span><a alias="About" conversion="false" href="http://www.modernhealthcare.com/section/aboutus" style="color: rgb(33, 104, 167); text-decoration: none; font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" title="About"><span style="color:#FFFFFF;">About Us</span></a><span style="color:#FFFFFF;"><span style="font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;">&nbsp;</span><span style="font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 20.7999992370605px;">|&nbsp;</span></span><a alias="Contact" conversion="false" href="http://www.modernhealthcare.com/section/contactusgen" style="color: rgb(33, 104, 167); text-decoration: none; font-size: 11px; text-align: center; font-family: arial, helvetica, sans-serif; line-height: 17.6000003814697px;" title="Contact"><span style="color:#FFFFFF;">Contact Us</span></a></div>
+</div>
+</div>
+</div>
+</div>
