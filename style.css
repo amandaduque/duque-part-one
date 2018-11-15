@@ -1,0 +1,136 @@
+html {
+    background-color: #f0ecee;
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    grid-template-areas:
+    "logo nav nav nav navbutton"
+    "space space space space space"
+    "space space space space space"
+    "header header space space space"
+    "subheader subheader space space space"
+    "submitbutton submitbutton space space space"
+    "space space space space space"
+    "space space space space space"
+    "space space space space space"
+    "space space space space space";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;*/
+}
+/* Navigation Styling */
+
+.logo {
+    grid-area: logo;
+    padding: 0% 0% 0% 0%;
+    font-weight: 300;
+    font-family: fira sans;
+    font-size: 1.5em;
+}
+.nav {
+   /* grid-area: nav;*/
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+}
+.nav ul li {
+    display: inline-block;
+    font-size: .9em;
+    letter-spacing: .02em;
+    font-family: fira sans;
+    color: #88898B;
+    font-weight: 300;
+}
+
+.navButton {
+    grid-area: navbutton;
+    background-color:#FF4850;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+button {
+    display: inline-block;
+    font-size: 1em;
+    width: 100%;
+
+}
+/* Header Styling */
+
+.header {
+    grid-area: header;
+    padding: 10% 0% 0% 5%;
+    height: 3em;
+    width: 15em;
+    font-family: fira sans;
+    font-weight: 600;
+    font-size: 2em;
+    }
+    .red {
+        color: #FF4850;
+        background: none;
+        }
+        
+/* Subheader Styling */
+
+button:hover{
+    background-color: #CCC;
+    color: #FF4850;
+}
+.nav ul li:hover{
+    color: #FF4850;
+}
+
+.subheader {
+    grid-area: subheader;
+    height: 3em;
+    width: 25em;
+    font-family: fira sans;
+    font-weight: 400;
+    font-size: 19px;
+    padding: 0% 0% 0% 5%; 
+    }
+.submitButton {
+    grid-area: submitbutton;
+    height: 5em;
+    padding: 0% 0% 0% 5%;
+    }
+.buttonClass2 {
+    grid-area: button;
+    height: 50%;
+    color: white;
+    background-color: #FF4850;
+    border-radius: 15px;
+    padding: 10px;
+        }
+
+@media only screen and (min-width: 768px) {
+    .nav ul {
+        flex-direction: row;
+    }
+    .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    button{
+        width: auto;
+    }
+
+    html {
+        background: url("bulldog.jpg") no-repeat center fixed;
+        background-size: 80%;
+
+    }
+}
